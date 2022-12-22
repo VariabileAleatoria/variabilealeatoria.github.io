@@ -10,7 +10,7 @@
 
 .icon {
     padding: 10px;
-    color: white
+    color: white;
 }
 
 .icon:hover {
@@ -19,4 +19,5 @@
 
 .contactIcon {
     width: fit-content;
+    font-size: min(4vw, 40px);
 }
