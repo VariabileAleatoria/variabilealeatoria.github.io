@@ -1,0 +1,22 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    background-color: #3b4252;
+    width: fit-content;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+.icon {
+    padding: 10px;
+    color: white
+}
+
+.icon:hover {
+    color: #81a1c1
+}
+
+.contactIcon {
+    width: fit-content;
+}

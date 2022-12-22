@@ -1,0 +1,17 @@
+.mainCard {
+    background-color: #3b4252;
+    color: #ffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.propic {
+    min-width: 100px;
+    max-width: 250px;
+    height: auto;
+    border-radius: 100%;
+    margin: 10px;
+}
