@@ -1,10 +1,10 @@
 .cvCard {
     margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     background-color: #3b4252;
     flex-grow: 1;
     color: white;
-    padding-left: 1%;
+    padding-left: max(2%, 10px);
 }
