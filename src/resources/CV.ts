@@ -7,7 +7,7 @@ export type Step = {
 export const education: Array<Step> = [
     {
         time: "2019 - 2021",
-        description: "Master's Degree in Computer Engineering @ Università degli Studi di Genova (110 cum laude/100)"
+        description: "Master's Degree in Computer Engineering @ Università degli Studi di Genova (110 cum laude/110)"
     },
     {
         time: "2016 - 2019",
