@@ -1,0 +1,18 @@
+.publication h4 {
+    margin: 0;
+}
+
+.publication p {
+    margin-top: 0.5em;
+}
+
+.publication a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.publication {
+    margin-left: 1em;
+    margin-bottom: 2em;
+}

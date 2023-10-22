@@ -1,8 +1,8 @@
 import "./styles.css";
 import { education, workExperience } from "../../resources/CV";
-import * as React from "react";
 import CVTimeline from "../UI/CVTimeline";
-
+import Publication from "../UI/Publication";
+import { publications } from "../../resources/CV";
 
 const CV = () => {
   return (
@@ -13,6 +13,8 @@ const CV = () => {
       <CVTimeline steps={education} />
       <h2>Work Experience</h2>
       <CVTimeline steps={workExperience} />
+      <h2>Publications</h2>
+      {publications.map(publication=><Publication {...publication}/>)}
       <h2>Contact me</h2>
       <ul>
         <li>
