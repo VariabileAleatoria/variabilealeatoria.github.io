@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import contacts from "../../resources/Contacts";
 import './styles.css'
 
-const ContactsColumn = () => {
+const Contacts = () => {
   return (
     <div className="contacts">
       {contacts.map((item) => (
@@ -14,4 +14,4 @@ const ContactsColumn = () => {
   );
 };
 
-export default ContactsColumn;
+export default Contacts;

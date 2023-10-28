@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import MainCard from './components/mainHeader/MainCard';
-import ContactsColumn from './components/contacts/ContactsColumn';
+import Contacts from './components/contacts/ContactsColumn';
 import CV from './components/cv/CV';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className='container'>
       <MainCard />
       <div className='content'>
-        <ContactsColumn />
+        <Contacts />
         <CV />
       </div>
     </div>

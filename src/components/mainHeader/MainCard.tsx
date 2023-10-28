@@ -8,7 +8,7 @@ const MainCard = () => {
         <h1>Alessandro Orlich</h1>
         Research Fellow @ University of Genoa.
       </div>
-      <img className="propic" src={propic} alt="profile picture" />
+      <img className="propic" src={propic} alt="profile" loading="lazy" />
     </div>
   );
 };
