@@ -1,9 +1,8 @@
 .cvCard {
     padding-right: 1em;
-    margin-top: 2%;
-    margin-bottom: 2%;
     background-color: #3b4252;
     flex-grow: 1;
     color: white;
     padding-left: max(2%, 10px);
+    overflow: auto;
 }

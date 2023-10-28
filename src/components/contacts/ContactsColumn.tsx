@@ -6,8 +6,8 @@ const Contacts = () => {
   return (
     <div className="contacts">
       {contacts.map((item) => (
-        <a key={item.key} href={item.url} className="contactIcon">
-          <FontAwesomeIcon icon={item.icon} className="icon" />
+        <a key={item.key} href={item.url}>
+          <FontAwesomeIcon size={"2xl"} icon={item.icon} className="icon" />
         </a>
       ))}
     </div>

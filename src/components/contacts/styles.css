@@ -1,34 +1,26 @@
 .contacts {
-    display: flex;
-    background-color: #3b4252;
-    margin-top: 2%;
-    margin-bottom: 2%;
+  display: flex;
+  background-color: #3b4252;
 }
 
 .icon {
-    padding: 10px;
-    color: white;
+  padding: 10px;
+  color: white;
 }
 
 .icon:hover {
-    color: #81a1c1
+  color: #81a1c1;
 }
 
-.contactIcon {
-    width: fit-content;
-    font-size: min(4vw, 40px);
-}
 
 @media screen and (max-width: 768px) {
-    
-    .contacts {
-        flex-direction: row;
-    }
-
+  .contacts {
+    flex-direction: row;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .contacts {
-        flex-direction: column;
-    }
+  .contacts {
+    flex-direction: column;
+  }
 }
