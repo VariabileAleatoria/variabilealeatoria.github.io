@@ -1,5 +1,5 @@
 import "./MainCard.css";
-import propic from "../../resources/images/square.png";
+import propic from "../../resources/images/square.jpg";
 
 const MainCard = () => {
   return (
