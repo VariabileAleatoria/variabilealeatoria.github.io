@@ -37,7 +37,11 @@ export const education: Array<Step> = [
 
 export const workExperience: Array<Step> = [
   {
-    time: "2022 - now",
+    time: "Dec 2023 - now",
+    description: "Software Designer & Coder @ Liguria Digitale S.p.A",
+  },
+  {
+    time: "Feb 2022 - Dec 2023",
     description: "Research fellow @ Università degli Studi di Genova",
     optional:
       "Including a cooperation with Liguria Digitale S.p.A on a Mobile E-Health project.",

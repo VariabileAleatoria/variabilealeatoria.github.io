@@ -6,7 +6,7 @@ const MainCard = () => {
     <div className="mainCard">
       <div>
         <h1>Alessandro Orlich</h1>
-        Research Fellow @ University of Genoa.
+        Computer Engineer.
       </div>
       <img className="propic" src={propic} alt="profile" loading="lazy" />
     </div>
