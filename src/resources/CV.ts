@@ -7,7 +7,7 @@ export type Step = {
 export type Publication = {
   title: string;
   journal: string;
-  volume: string;
+  volume?: string;
   pages: string;
   year: string;
   issn?: string;
@@ -89,5 +89,23 @@ export const publications: Array<Publication> = [
       "Cybersecurity training",
       "Cyber ranges",
     ],
+  },
+  {
+    title:
+      "Cyber Range and Cyber Defense Exercises: Gamification Meets University Students",
+    journal: "Proceedings of the 2nd International Workshop on Gamification in Software Development, Verification, and Validation",
+    pages: "29–37",
+    year: "2023",
+    doi: "https://doi.org/10.1145/3617553.3617888",
+    authors: [
+      "Enrico Russo",
+      "Marina Ribaudo",
+      "Alessandro Orlich",
+      "Giacomo Longo",
+      "Alessandro Armando",
+    ],
+    keywords: [
+      "cybersecurity education", "Gamification", "cyber range"
+    ]
   },
 ];
