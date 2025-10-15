@@ -97,7 +97,8 @@ export const publications: Array<Publication> = [
   {
     title:
       "Cyber Range and Cyber Defense Exercises: Gamification Meets University Students",
-    journal: "Proceedings of the 2nd International Workshop on Gamification in Software Development, Verification, and Validation",
+    journal:
+      "Proceedings of the 2nd International Workshop on Gamification in Software Development, Verification, and Validation",
     pages: "29–37",
     year: "2023",
     doi: "https://doi.org/10.1145/3617553.3617888",
@@ -108,8 +109,24 @@ export const publications: Array<Publication> = [
       "Giacomo Longo",
       "Alessandro Armando",
     ],
-    keywords: [
-      "cybersecurity education", "Gamification", "cyber range"
-    ]
+    keywords: ["cybersecurity education", "Gamification", "cyber range"],
+  },
+  {
+    title:
+      "A fog computing-based architecture for the decentralized energy management of microgrids",
+      journal: "System Level Control and Optimisation of Microgrids ",
+      pages: "255-274",
+      year: "2024",
+      doi: "https://doi.org/10.1049/PBPO149E_ch10",
+      authors: [
+        "Alessandro Armando",
+        "Valderrama Daniel",
+        "Giulio Ferro",
+        "Giacomo Longo",
+        "Alessandro Orlich",
+        "Michela Robba",
+        "Mansueto Rossi",
+        "Enrico Russo",
+      ]
   },
 ];
